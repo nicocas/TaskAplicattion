@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.App{
+  display: flex;
+  /*flex-wrap: wrap indica que los hijos de "App" pueden usar varias lineas si lo requieren. 
+  No-wrap obliga a todos los hijos de App a ocupar solo una linea*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo-conteiner {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freecodecamp-logo {
+  width: 400px;
+  height: 50px;
+}
+
+/*Lista de tareas*/
+
+.task-list{
+  width: 600px;
+  /*le pongo altura minima porque quiero que esta se modifique segun agrego tareas*/
+  min-height: 500px;
+  background-color: #d0d0d5;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
